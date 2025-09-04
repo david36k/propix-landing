@@ -71,6 +71,8 @@ export default {
 				'hero-text-muted': 'hsl(var(--hero-text-muted))',
 			},
 			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
 				sans: [
 					'-apple-system',
 					'BlinkMacSystemFont',
