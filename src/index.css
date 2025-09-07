@@ -2,49 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Futuristic Property Management App Design System */
+/* Clean Modern App Design System */
 
 @layer base {
   :root {
-    /* Modern Blue-Pink Gradient System */
-    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(225, 73%, 57%) 0%, hsl(267, 37%, 55%) 50%, hsl(313, 73%, 70%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(225, 73%, 97%) 0%, hsl(267, 37%, 98%) 100%);
+    /* Light Gradient System - Blue to Pink/Orange */
+    --gradient-primary: linear-gradient(135deg, #E0F2FE 0%, #FEF3C7 50%, #FECACA 100%);
+    --gradient-hero: linear-gradient(135deg, #E0F2FE 0%, #FEF3C7 50%, #FECACA 100%);
+    --gradient-subtle: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
     
     /* Core Colors - HSL Format */
-    --background: 225 73% 97%;
-    --foreground: 225 25% 15%;
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 225 25% 15%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 225 25% 15%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 225 73% 57%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
     
-    --secondary: 267 37% 55%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
 
-    --muted: 225 20% 95%;
-    --muted-foreground: 225 15% 45%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 313 73% 70%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 225 30% 88%;
-    --input: 225 30% 90%;
-    --ring: 225 73% 57%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
 
-    --radius: 1rem;
+    --radius: 1.5rem;
     
     /* Hero Specific */
-    --hero-text: 0 0% 100%;
-    --hero-text-muted: 225 20% 85%;
+    --hero-text: 222.2 84% 4.9%;
+    --hero-text-muted: 215.4 16.3% 46.9%;
     
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

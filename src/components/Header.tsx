@@ -1,24 +1,27 @@
 export const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/10 backdrop-blur-md border-b border-white/10">
-      <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <div className="font-playfair text-xl font-semibold text-white">
-            PropManager Pro
+    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50">
+      <nav className="bg-white/80 backdrop-blur-md rounded-full px-8 py-3 shadow-lg border border-white/20">
+        <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-foreground rounded-full flex items-center justify-center">
+              <svg className="w-5 h-5 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 21l4-4 4 4" />
+              </svg>
+            </div>
           </div>
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-white/80 hover:text-white transition-colors">
-              Home
-            </a>
-            <a href="#features" className="text-white/80 hover:text-white transition-colors">
-              Features
-            </a>
-            <a href="#download" className="text-white/80 hover:text-white transition-colors">
-              Download
-            </a>
-          </nav>
+          
+          <div className="flex items-center space-x-6">
+            <a href="#home" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">L'application</a>
+            <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">Nous contacter</a>
+          </div>
+          
+          <button className="bg-gradient-to-r from-amber-400 to-orange-400 text-foreground px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300 text-sm">
+            Télécharger
+          </button>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };
