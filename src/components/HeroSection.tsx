@@ -8,13 +8,13 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center relative z-10">
         {/* Header Text */}
         <div className="animate-fade-up">
-          <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-hero-text mb-8 max-w-5xl mx-auto leading-[0.9]">
-            Partagez & recommandez
+          <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-hero-text mb-8 max-w-5xl mx-auto leading-[0.9]" dir="rtl">
+            שתפו והמליצו
             <br />
-            <span className="text-hero-text/80">vos meilleures découvertes</span>
+            <span className="text-hero-text/80">על הגילויים הטובים ביותר שלכם</span>
           </h1>
-          <p className="font-inter text-xl md:text-2xl text-hero-text-muted mb-16 max-w-3xl mx-auto leading-relaxed">
-            PropertyApp, l'application mobile de gestion immobilière pour investisseurs qui révolutionne votre manière d'investir.
+          <p className="font-inter text-xl md:text-2xl text-hero-text-muted mb-16 max-w-3xl mx-auto leading-relaxed" dir="rtl">
+            PropertyApp, אפליקציית הנייד לניהול נדל״ן למשקיעים שמהפכת את הדרך שלכם להשקיע.
           </p>
         </div>
 

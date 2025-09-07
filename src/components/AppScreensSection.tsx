@@ -7,10 +7,10 @@ export const AppScreensSection = () => {
     <section className="py-20 px-6 bg-gradient-subtle">
       <div className="container max-w-4xl mx-auto text-center">
         <div className="mb-16">
-          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-8 leading-tight">
-            Suivez et inspirez
+          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-8 leading-tight" dir="rtl">
+            עקבו והשפיעו
             <br />
-            <span className="text-foreground/70">la communauté</span>
+            <span className="text-foreground/70">על הקהילה</span>
           </h2>
         </div>
         
