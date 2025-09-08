@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
+import googlePlayBadge from "@/assets/google-play-badge.png";
 
 interface GooglePlayButtonProps {
   className?: string;
@@ -7,17 +6,11 @@ interface GooglePlayButtonProps {
 
 export const GooglePlayButton = ({ className }: GooglePlayButtonProps) => {
   return (
-    <Button 
-      variant="google-play" 
-      size="xl"
-      className={className}
+    <img 
+      src={googlePlayBadge}
+      alt="Get it on Google Play"
+      className={`h-14 w-auto cursor-pointer hover:opacity-80 transition-opacity ${className}`}
       onClick={() => window.open('https://play.google.com', '_blank')}
-    >
-      <Play className="w-6 h-6" />
-      <div className="flex flex-col items-start leading-tight">
-        <span className="text-xs opacity-90">Get it on</span>
-        <span className="text-lg font-semibold -mt-1">Google Play</span>
-      </div>
-    </Button>
+    />
   );
 };
