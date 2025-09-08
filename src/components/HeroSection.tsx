@@ -8,7 +8,7 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center relative z-10">
         {/* Header Text */}
         <div className="animate-fade-up">
-          <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-hero-text mb-8 max-w-5xl mx-auto leading-[0.9]" dir="rtl">
+          <h1 className="font-poppins text-6xl md:text-7xl lg:text-8xl font-bold text-hero-text mb-8 max-w-5xl mx-auto leading-[0.9]" dir="rtl">
             שתפו והמליצו
             <br />
             <span className="text-hero-text/80">על הגילויים הטובים ביותר שלכם</span>

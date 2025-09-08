@@ -18,8 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        "app-store": "bg-black text-white hover:bg-gray-900 rounded-xl px-6 py-3 text-base font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-lg",
-        "google-play": "bg-gradient-to-r from-green-500 to-blue-600 text-white hover:from-green-600 hover:to-blue-700 rounded-xl px-6 py-3 text-base font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-lg",
+        "app-store": "bg-black text-white hover:bg-gray-800 rounded-lg px-4 py-2 transition-all duration-200 hover:scale-[1.02]",
+        "google-play": "bg-black text-white hover:bg-gray-800 rounded-lg px-4 py-2 transition-all duration-200 hover:scale-[1.02]",
       },
       size: {
         default: "h-10 px-4 py-2",
