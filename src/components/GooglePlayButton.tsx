@@ -1,5 +1,3 @@
-import { Play } from "lucide-react";
-
 interface GooglePlayButtonProps {
   className?: string;
 }
@@ -7,14 +5,14 @@ interface GooglePlayButtonProps {
 export const GooglePlayButton = ({ className }: GooglePlayButtonProps) => {
   return (
     <button 
-      className={`bg-black text-white rounded-2xl px-6 py-4 flex items-center gap-3 cursor-pointer hover:bg-gray-800 transition-colors ${className}`}
+      className={`cursor-pointer hover:opacity-80 transition-opacity ${className}`}
       onClick={() => window.open('https://play.google.com', '_blank')}
     >
-      <Play className="w-8 h-8" />
-      <div className="flex flex-col items-start leading-tight text-right" dir="rtl">
-        <span className="text-sm opacity-90">קבל את זה ב</span>
-        <span className="text-xl font-semibold -mt-1">Google Play</span>
-      </div>
+      <img 
+        src="/lovable-uploads/feb40077-8184-4aee-8194-2f46ec1d9337.png"
+        alt="Get it on Google Play"
+        className="h-14 w-auto"
+      />
     </button>
   );
 };
