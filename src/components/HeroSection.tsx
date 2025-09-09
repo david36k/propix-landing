@@ -12,7 +12,7 @@ export const HeroSection = () => {
       setIsProcessing(true);
       try {
         // Fetch the uploaded image
-        const response = await fetch("/lovable-uploads/920a6d53-4a16-4ab7-b9d6-d2310531dda5.png");
+        const response = await fetch("/lovable-uploads/3159d973-1b2a-41a4-a7f9-b93a33207d10.png");
         const blob = await response.blob();
         
         // Load the image
@@ -27,7 +27,7 @@ export const HeroSection = () => {
       } catch (error) {
         console.error("Failed to process image:", error);
         // Fallback to original image
-        setProcessedImageUrl("/lovable-uploads/920a6d53-4a16-4ab7-b9d6-d2310531dda5.png");
+        setProcessedImageUrl("/lovable-uploads/3159d973-1b2a-41a4-a7f9-b93a33207d10.png");
       } finally {
         setIsProcessing(false);
       }
