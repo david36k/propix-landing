@@ -29,8 +29,16 @@ const features = [
 
 export const FeaturesSection = () => {
   return (
-    <section className="py-32 px-6 bg-background">
+    <section id="features" className="py-32 px-6 bg-gradient-to-b from-[#FECACA] via-[rgba(254,202,202,0.3)] to-background">
       <div className="container max-w-6xl mx-auto">
+        {/* Section Title */}
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-4" dir="rtl">
+            יכולות המערכת
+          </h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-400 mx-auto rounded-full"></div>
+        </div>
+
         <div className="space-y-32">
           {features.map((feature, index) => (
             <div
