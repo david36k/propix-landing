@@ -1,58 +1,18 @@
 import { AppStoreButton } from "@/components/AppStoreButton";
 import { GooglePlayButton } from "@/components/GooglePlayButton";
-import { useEffect, useState } from "react";
-import { removeBackground, loadImage } from "@/lib/backgroundRemoval";
 
 export const HeroSection = () => {
-  const [processedImageUrl, setProcessedImageUrl] = useState<string>("");
-  const [isProcessing, setIsProcessing] = useState(false);
-
-  useEffect(() => {
-    const processAppImage = async () => {
-      setIsProcessing(true);
-      try {
-        // Fetch the uploaded image
-        const response = await fetch("/lovable-uploads/3159d973-1b2a-41a4-a7f9-b93a33207d10.png");
-        const blob = await response.blob();
-        
-        // Load the image
-        const imageElement = await loadImage(blob);
-        
-        // Remove background
-        const processedBlob = await removeBackground(imageElement);
-        
-        // Create URL for the processed image
-        const url = URL.createObjectURL(processedBlob);
-        setProcessedImageUrl(url);
-      } catch (error) {
-        console.error("Failed to process image:", error);
-        // Fallback to original image
-        setProcessedImageUrl("/lovable-uploads/3159d973-1b2a-41a4-a7f9-b93a33207d10.png");
-      } finally {
-        setIsProcessing(false);
-      }
-    };
-
-    processAppImage();
-  }, []);
-
   return (
     <section id="home" className="min-h-screen bg-gradient-hero flex items-center justify-center px-6 py-20 pt-32 relative overflow-hidden">
       <div className="container max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Phone Mockup - Left Side */}
           <div className="flex justify-center lg:justify-end animate-fade-up">
-            {isProcessing ? (
-              <div className="w-80 h-[600px] bg-background/10 rounded-3xl animate-pulse flex items-center justify-center">
-                <div className="text-hero-text-muted">מעבד תמונה...</div>
-              </div>
-            ) : processedImageUrl ? (
-              <img 
-                src={processedImageUrl}
-                alt="propix app interface"
-                className="w-80 h-auto max-h-[600px] object-contain"
-              />
-            ) : null}
+            <img 
+              src="/lovable-uploads/c7b8a489-822c-4117-b36e-e4baa5917c88.png"
+              alt="propix app interface"
+              className="w-80 h-auto max-h-[600px] object-contain"
+            />
           </div>
 
           {/* Content - Right Side */}
