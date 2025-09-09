@@ -11,7 +11,7 @@ export const HeroSection = () => {
             <img 
               src="/lovable-uploads/c7b8a489-822c-4117-b36e-e4baa5917c88.png"
               alt="propix app interface"
-              className="w-80 h-auto max-h-[600px] object-contain"
+              className="w-96 h-auto max-h-[700px] object-contain"
             />
           </div>
 
