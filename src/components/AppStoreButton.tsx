@@ -9,7 +9,7 @@ export const AppStoreButton = ({ className }: AppStoreButtonProps) => {
       onClick={() => window.open('https://apps.apple.com', '_blank')}
     >
       <img 
-        src="/lovable-uploads/4bef318e-f22c-4964-a200-b673b65482de.png"
+        src="/lovable-uploads/e422f291-32ef-4efc-879a-5c841ec13ca9.png"
         alt="Download on the App Store"
         className="h-14 w-auto"
       />
