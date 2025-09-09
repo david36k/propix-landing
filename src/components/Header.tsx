@@ -12,9 +12,10 @@ export const Header = () => {
             </div>
           </div>
           
-          <div className="flex items-center space-x-6">
-            <a href="#home" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">האפליקציה</a>
-            <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">צור קשר</a>
+          <div className="flex items-center space-x-6" dir="rtl">
+            <a href="#home" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">בית</a>
+            <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">פיצ'רים</a>
+            <a href="#about" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">אודות</a>
           </div>
           
           <button className="bg-gradient-to-r from-amber-400 to-orange-400 text-foreground px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300 text-sm">
