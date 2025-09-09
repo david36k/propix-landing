@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50">
       <nav className="bg-white/80 backdrop-blur-md rounded-full px-8 py-3 shadow-lg border border-white/20">
-        <div className="flex items-center space-x-8">
+        <div className="flex items-center justify-between w-full">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-foreground rounded-full flex items-center justify-center">
               <svg className="w-5 h-5 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -12,15 +12,12 @@ export const Header = () => {
             </div>
           </div>
           
-          <div className="flex items-center space-x-6" dir="rtl">
+          <div className="flex items-center space-x-8" dir="rtl">
             <a href="#home" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">בית</a>
-            <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">פיצ'רים</a>
+            <div className="w-px h-4 bg-foreground/20"></div>
+            <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">פיצ׳רים</a>
             <a href="#about" className="text-foreground/70 hover:text-foreground transition-colors duration-200 text-sm font-medium">אודות</a>
           </div>
-          
-          <button className="bg-gradient-to-r from-amber-400 to-orange-400 text-foreground px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300 text-sm">
-            הורדה
-          </button>
         </div>
       </nav>
     </header>

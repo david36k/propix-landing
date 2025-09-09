@@ -9,12 +9,12 @@ export const HeroSection = () => {
         {/* Header Text */}
         <div className="animate-fade-up">
           <h1 className="font-poppins text-6xl md:text-7xl lg:text-8xl font-bold text-hero-text mb-8 max-w-5xl mx-auto leading-[0.9]" dir="rtl">
-            שתפו והמליצו
+            ניהול נכסים
             <br />
-            <span className="text-hero-text/80">על הגילויים הטובים ביותר שלכם</span>
+            <span className="text-hero-text/80">מעולם לא היה קל כל כך</span>
           </h1>
           <p className="font-inter text-xl md:text-2xl text-hero-text-muted mb-16 max-w-3xl mx-auto leading-relaxed" dir="rtl">
-            PropertyApp, אפליקציית הנייד לניהול נדל״ן למשקיעים שמהפכת את הדרך שלכם להשקיע.
+            אפליקציית propix לניהול נדל״ן עצמאי חכם
           </p>
         </div>
 
