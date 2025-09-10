@@ -4,13 +4,13 @@ import appScreen3 from "@/assets/app-screen-3.png";
 
 export const AppScreensSection = () => {
   return (
-    <section className="py-20 px-6 bg-gradient-subtle">
+    <section className="py-20 px-6">
       <div className="container max-w-4xl mx-auto text-center">
         <div className="mb-16">
-          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-8 leading-tight" dir="rtl">
+          <h2 className="font-heebo text-4xl md:text-5xl font-bold text-hero-text mb-8 leading-tight" dir="rtl">
             עקבו והשפיעו
             <br />
-            <span className="text-foreground/70">על הקהילה</span>
+            <span className="text-hero-text/70">על הקהילה</span>
           </h2>
         </div>
         
