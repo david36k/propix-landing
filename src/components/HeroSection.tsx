@@ -26,6 +26,13 @@ export const HeroSection = () => {
               אפליקציית propix לניהול נדל״ן עצמאי חכם
             </p>
 
+            {/* Stats */}
+            <div className="mb-8 animate-fade-in">
+              <p className="text-lg font-medium text-hero-text/80" dir="rtl">
+                2300+ נכסים במערכת
+              </p>
+            </div>
+
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center animate-fade-in">
               <AppStoreButton className="w-full sm:w-auto" />

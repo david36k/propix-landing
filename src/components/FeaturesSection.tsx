@@ -29,14 +29,14 @@ const features = [
 
 export const FeaturesSection = () => {
   return (
-    <section id="features" className="py-32 px-6 bg-gradient-to-b from-[#FECACA] via-[rgba(254,202,202,0.3)] to-background">
+    <section id="features" className="py-32 px-6 bg-gradient-transition">
       <div className="container max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-foreground mb-4" dir="rtl">
+          <h2 className="font-heebo text-5xl md:text-6xl font-bold text-foreground mb-4" dir="rtl">
             יכולות המערכת
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-400 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-purple-400 mx-auto rounded-full"></div>
         </div>
 
         <div className="space-y-32">
@@ -49,10 +49,10 @@ export const FeaturesSection = () => {
             >
               {/* Text Content */}
               <div className="flex-1 text-center lg:text-right space-y-6" dir="rtl">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-amber-400 to-orange-400 flex items-center justify-center text-3xl mx-auto lg:ml-0">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-teal-400 to-purple-400 flex items-center justify-center text-3xl mx-auto lg:ml-0">
                   {feature.icon}
                 </div>
-                <h3 className="font-playfair text-4xl md:text-5xl font-bold text-foreground leading-tight max-w-md mx-auto lg:ml-0">
+                <h3 className="font-heebo text-4xl md:text-5xl font-bold text-foreground leading-tight max-w-md mx-auto lg:ml-0">
                   {feature.title}
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-md mx-auto lg:ml-0">

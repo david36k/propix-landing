@@ -22,6 +22,7 @@ export default {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-subtle': 'var(--gradient-subtle)',
+				'gradient-transition': 'var(--gradient-transition)',
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -74,6 +75,7 @@ export default {
 				'inter': ['Inter', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
 				'poppins': ['Poppins', 'sans-serif'],
+				'heebo': ['Heebo', 'sans-serif'],
 				sans: [
 					'-apple-system',
 					'BlinkMacSystemFont',

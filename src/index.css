@@ -6,12 +6,12 @@
 
 @layer base {
   :root {
-    /* Light Gradient System - Blue to Pink/Orange */
-    --gradient-primary: linear-gradient(135deg, #E0F2FE 0%, #FEF3C7 50%, #FECACA 100%);
-    --gradient-hero: linear-gradient(135deg, #E0F2FE 0%, #FEF3C7 50%, #FECACA 100%);
-    --gradient-hero-end: #FECACA;
+    /* Light Gradient System - Teal to Green to Purple */
+    --gradient-primary: linear-gradient(135deg, #CCFBF1 0%, #A7F3D0 35%, #DDD6FE 70%, #C4B5FD 100%);
+    --gradient-hero: linear-gradient(135deg, #CCFBF1 0%, #A7F3D0 35%, #DDD6FE 70%, #C4B5FD 100%);
+    --gradient-hero-end: #C4B5FD;
     --gradient-subtle: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
-    --gradient-transition: linear-gradient(180deg, #FECACA 0%, rgba(254, 202, 202, 0.7) 30%, rgba(254, 202, 202, 0.3) 60%, #F8FAFC 100%);
+    --gradient-transition: linear-gradient(180deg, #C4B5FD 0%, rgba(196, 181, 253, 0.8) 20%, rgba(196, 181, 253, 0.5) 40%, rgba(196, 181, 253, 0.2) 60%, rgba(196, 181, 253, 0.1) 80%, #F8FAFC 100%);
     
     /* Core Colors - HSL Format */
     --background: 210 40% 98%;
