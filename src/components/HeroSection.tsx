@@ -1,19 +1,17 @@
 import { AppStoreButton } from "@/components/AppStoreButton";
 import { GooglePlayButton } from "@/components/GooglePlayButton";
-import propixLogo from "@/assets/propix-logo.png";
 
 export const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen bg-gradient-hero flex items-center justify-center px-6 py-16 pt-24 relative overflow-hidden">
+      {/* Text Logo - Top Left */}
+      <div className="absolute top-8 left-8 z-20 animate-fade-in">
+        <h1 className="font-heebo text-3xl font-bold text-hero-text">
+          propix
+        </h1>
+      </div>
+      
       <div className="container max-w-7xl mx-auto relative z-10">
-        {/* Logo */}
-        <div className="text-center mb-12 animate-fade-in">
-          <img 
-            src={propixLogo}
-            alt="Propix Logo"
-            className="h-16 mx-auto"
-          />
-        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Phone Mockup - Left Side */}
           <div className="flex justify-center lg:justify-end animate-fade-up">
