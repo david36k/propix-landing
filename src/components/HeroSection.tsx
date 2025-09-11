@@ -36,13 +36,15 @@ export const HeroSection = () => {
 
             {/* Stats */}
             <div className="mb-8 animate-fade-in">
-              <div className="flex items-center justify-center lg:justify-start gap-2" dir="rtl">
-                <span className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">נכסים במערכת</span>
-                <CountAnimation 
-                  number={2300} 
-                  className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent"
-                />
-                <span className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">+</span>
+              <div className="flex flex-col items-center lg:items-start" dir="rtl">
+                <div className="flex items-center gap-1">
+                  <CountAnimation 
+                    number={95} 
+                    className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent"
+                  />
+                  <span className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">+</span>
+                </div>
+                <span className="text-lg font-medium bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent mt-1">נכסים במערכת</span>
               </div>
             </div>
 
