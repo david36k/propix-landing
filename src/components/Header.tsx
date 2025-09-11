@@ -39,16 +39,10 @@ export const Header = () => {
 
   const navItems = [
     { 
-      name: "בית", 
-      url: "#home",
-      icon: Home,
-      onClick: () => scrollToSection("home")
-    },
-    { 
-      name: "פיצ׳רים", 
-      url: "#features",
-      icon: Settings,
-      onClick: () => scrollToSection("features")
+      name: "אודות", 
+      url: "#about",
+      icon: Info,
+      onClick: () => scrollToSection("about")
     },
     { 
       name: "מחירון", 
@@ -57,10 +51,16 @@ export const Header = () => {
       onClick: () => scrollToSection("screens")
     },
     { 
-      name: "אודות", 
-      url: "#about",
-      icon: Info,
-      onClick: () => scrollToSection("about")
+      name: "פיצ׳רים", 
+      url: "#features",
+      icon: Settings,
+      onClick: () => scrollToSection("features")
+    },
+    { 
+      name: "בית", 
+      url: "#home",
+      icon: Home,
+      onClick: () => scrollToSection("home")
     }
   ];
 
