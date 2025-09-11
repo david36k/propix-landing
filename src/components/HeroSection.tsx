@@ -1,5 +1,6 @@
 import { AppStoreButton } from "@/components/AppStoreButton";
 import { GooglePlayButton } from "@/components/GooglePlayButton";
+import { CountAnimation } from "@/components/ui/count-animation";
 
 export const HeroSection = () => {
   return (
@@ -35,9 +36,14 @@ export const HeroSection = () => {
 
             {/* Stats */}
             <div className="mb-8 animate-fade-in">
-              <p className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent" dir="rtl">
-                +2300 נכסים במערכת
-              </p>
+              <div className="flex items-center justify-center lg:justify-start gap-2" dir="rtl">
+                <span className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">נכסים במערכת</span>
+                <CountAnimation 
+                  number={2300} 
+                  className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent"
+                />
+                <span className="text-xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">+</span>
+              </div>
             </div>
 
             {/* Download Section */}
