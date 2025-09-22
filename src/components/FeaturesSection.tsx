@@ -1,4 +1,4 @@
-import { Building2, Users, BarChart3, Shield } from "lucide-react";
+import { Building2, Users, BarChart3, Cloud, CheckSquare, Wrench } from "lucide-react";
 
 const features = [
   {
@@ -32,14 +32,34 @@ const features = [
     iconBg: "bg-purple-500"
   },
   {
-    icon: Shield,
-    title: "אבטחה ובטיחות",
-    description: "הצפנה ברמה בנקאית",
+    icon: Cloud,
+    title: "ענן",
+    description: "גישה מכל מקום ובכל זמן",
     image: "/lovable-uploads/920a6d53-4a16-4ab7-b9d6-d2310531dda5.png",
-    overlayTitle: "מערכת מאובטחת",
-    overlaySubtitle: "הצפנה 256-bit",
+    overlayTitle: "שמירה בענן",
+    overlaySubtitle: "גיבוי אוטומטי",
     overlayColor: "from-orange-500 to-orange-600",
     iconBg: "bg-orange-500"
+  },
+  {
+    icon: CheckSquare,
+    title: "ניהול משימות ותזכורות",
+    description: "מעקב אחר משימות ותזכורות אוטומטיות",
+    image: "/lovable-uploads/4bef318e-f22c-4964-a200-b673b65482de.png",
+    overlayTitle: "משימות היום",
+    overlaySubtitle: "5 משימות בהמתנה",
+    overlayColor: "from-teal-500 to-teal-600",
+    iconBg: "bg-teal-500"
+  },
+  {
+    icon: Wrench,
+    title: "כלים מתקדמים",
+    description: "כלי ניתוח ודוחות מתקדמים",
+    image: "/lovable-uploads/feb40077-8184-4aee-8194-2f46ec1d9337.png",
+    overlayTitle: "כלים חכמים",
+    overlaySubtitle: "ניתוח מתקדם",
+    overlayColor: "from-indigo-500 to-indigo-600",
+    iconBg: "bg-indigo-500"
   }
 ];
 
@@ -55,7 +75,7 @@ export const FeaturesSection = () => {
           <div className="w-20 h-1 bg-gradient-to-r from-teal-400 to-purple-400 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {features.map((feature, index) => (
             <div
               key={index}
