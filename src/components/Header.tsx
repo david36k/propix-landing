@@ -7,7 +7,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "features", "screens", "about"];
+      const sections = ["home", "features", "screens", "about", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -39,10 +39,10 @@ export const Header = () => {
 
   const navItems = [
     { 
-      name: "אודות", 
-      url: "#about",
+      name: "צור קשר", 
+      url: "#contact",
       icon: Info,
-      onClick: () => scrollToSection("about")
+      onClick: () => scrollToSection("contact")
     },
     { 
       name: "מחירון", 

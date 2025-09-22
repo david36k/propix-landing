@@ -14,46 +14,23 @@ export const AboutSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6" dir="rtl">
-            <div className="text-right">
-              <h3 className="font-heebo text-2xl font-semibold text-hero-text mb-3">
-                המשימה שלנו
-              </h3>
-              <p className="text-hero-text/70 leading-relaxed">
-                להפוך את עולם ההשקעות בנדל״ן לנגיש יותר ולעזור למשקיעים לקבל החלטות מושכלות באמצעות טכנולוגיה מתקדמת.
-              </p>
-            </div>
-            
-            <div className="text-right">
-              <h3 className="font-heebo text-2xl font-semibold text-hero-text mb-3">
-                החזון שלנו
-              </h3>
-              <p className="text-hero-text/70 leading-relaxed">
-                להיות האפליקציה המובילה לניהול נדל״ן בישראל ולסייע למשקיעים להשיג את מטרותיהם הפיננסיות.
-              </p>
-            </div>
+        <div className="space-y-6" dir="rtl">
+          <div className="text-center">
+            <h3 className="font-heebo text-2xl font-semibold text-hero-text mb-3">
+              המשימה שלנו
+            </h3>
+            <p className="text-hero-text/70 leading-relaxed max-w-2xl mx-auto">
+              להפוך את עולם ההשקעות בנדל״ן לנגיש יותר ולעזור למשקיעים לקבל החלטות מושכלות באמצעות טכנולוגיה מתקדמת.
+            </p>
           </div>
           
-          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20">
-            <div className="grid grid-cols-2 gap-6 text-center">
-              <div>
-                <div className="text-3xl font-bold text-hero-text mb-2">10K+</div>
-                <div className="text-hero-text/70 text-sm" dir="rtl">משתמשים פעילים</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-hero-text mb-2">50M+</div>
-                <div className="text-hero-text/70 text-sm" dir="rtl">₪ בהשקעות מנוהלות</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-hero-text mb-2">1000+</div>
-                <div className="text-hero-text/70 text-sm" dir="rtl">נכסים מנוהלים</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-hero-text mb-2">4.8★</div>
-                <div className="text-hero-text/70 text-sm" dir="rtl">דירוג באפסטור</div>
-              </div>
-            </div>
+          <div className="text-center">
+            <h3 className="font-heebo text-2xl font-semibold text-hero-text mb-3">
+              החזון שלנו
+            </h3>
+            <p className="text-hero-text/70 leading-relaxed max-w-2xl mx-auto">
+              להיות האפליקציה המובילה לניהול נדל״ן בישראל ולסייע למשקיעים להשיג את מטרותיהם הפיננסיות.
+            </p>
           </div>
         </div>
       </div>
