@@ -75,6 +75,11 @@ export const FAQSection = () => {
           ))}
         </div>
       </div>
+      
+      {/* Divider */}
+      <div className="container max-w-4xl mx-auto mt-20">
+        <div className="h-px bg-gradient-to-r from-transparent via-teal-600/50 to-transparent"></div>
+      </div>
     </section>
   );
 };
