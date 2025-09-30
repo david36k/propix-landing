@@ -36,7 +36,7 @@ export const ContactSection = () => {
           </p>
         </div>
         
-        <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20">
+        <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl shadow-primary/20">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label className="block text-hero-text font-heebo text-lg mb-2" dir="rtl">
