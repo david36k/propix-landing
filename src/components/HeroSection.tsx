@@ -25,26 +25,28 @@ export const HeroSection = () => {
 
           {/* Content - Right Side */}
           <div className="text-center lg:text-right animate-fade-up">
-            <h1 className="font-poppins text-5xl md:text-6xl lg:text-7xl font-bold text-hero-text mb-6 leading-[0.9]" dir="rtl">
+            <h1 className="font-cairo text-5xl md:text-6xl lg:text-7xl font-bold text-hero-text mb-6 leading-[0.9]" dir="rtl">
               <span className="bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent font-extrabold">ניהול נכסים</span>
               <br />
               <span className="text-hero-text font-semibold">מעולם לא היה קל כל כך</span>
             </h1>
-            <p className="font-inter text-xl md:text-2xl text-hero-text/70 font-medium mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed" dir="rtl">
+            <p className="font-cairo text-xl md:text-2xl text-hero-text/70 font-medium mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed" dir="rtl">
               אפליקציית propix לניהול נדל״ן עצמאי חכם
             </p>
 
             {/* Stats */}
             <div className="mb-8 animate-fade-in">
-              <div className="flex flex-col items-center lg:items-start" dir="rtl">
-                <div className="flex items-center gap-1">
-                  <CountAnimation 
-                    number={95} 
-                    className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent"
-                  />
-                  <span className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">+</span>
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 inline-block">
+                <div className="flex flex-col items-center" dir="rtl">
+                  <div className="flex items-center gap-1">
+                    <CountAnimation 
+                      number={95} 
+                      className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent"
+                    />
+                    <span className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">+</span>
+                  </div>
+                  <span className="text-lg font-medium bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent mt-1">נכסים במערכת</span>
                 </div>
-                <span className="text-lg font-medium bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent mt-1">נכסים במערכת</span>
               </div>
             </div>
 

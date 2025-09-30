@@ -76,6 +76,7 @@ export default {
 				'playfair': ['Playfair Display', 'serif'],
 				'poppins': ['Poppins', 'sans-serif'],
 				'heebo': ['Heebo', 'sans-serif'],
+				'cairo': ['Cairo', 'sans-serif'],
 				sans: [
 					'-apple-system',
 					'BlinkMacSystemFont',
