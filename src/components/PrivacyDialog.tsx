@@ -22,7 +22,7 @@ export const PrivacyDialog: React.FC<PrivacyDialogProps> = ({ children }) => {
           <DialogTitle className="text-xl font-bold text-center">מדיניות פרטיות</DialogTitle>
         </DialogHeader>
         <ScrollArea className="h-[60vh] w-full pr-4">
-          <div className="space-y-4 text-sm leading-relaxed">
+          <div className="space-y-4 text-sm leading-relaxed text-right">
             <section>
               <h3 className="font-semibold text-base mb-2">1. מבוא</h3>
               <p>

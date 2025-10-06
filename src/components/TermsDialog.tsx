@@ -22,7 +22,7 @@ export const TermsDialog: React.FC<TermsDialogProps> = ({ children }) => {
           <DialogTitle className="text-xl font-bold text-center">תנאי שימוש</DialogTitle>
         </DialogHeader>
         <ScrollArea className="h-[60vh] w-full pr-4">
-          <div className="space-y-4 text-sm leading-relaxed">
+          <div className="space-y-4 text-sm leading-relaxed text-right">
             <p className="font-medium">
               אנא קראו בעיון מסמך זה לפני השימוש באפליקציה. השימוש באפליקציה מהווה את הסכמתכם המלאה והמפורשת לכל תנאי השימוש המפורטים להלן. אם אינכם מסכימים – אנא הימנעו מכל שימוש באפליקציה.
             </p>
