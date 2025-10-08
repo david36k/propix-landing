@@ -5,13 +5,14 @@ interface GooglePlayButtonProps {
 export const GooglePlayButton = ({ className }: GooglePlayButtonProps) => {
   return (
     <button 
-      className={`cursor-pointer hover:opacity-80 transition-opacity ${className}`}
+      className={`cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center ${className}`}
+      style={{ height: '56px' }}
       onClick={() => window.open('https://play.google.com', '_blank')}
     >
       <img 
         src="/lovable-uploads/8d6182d4-2a97-4773-a459-8527ea69efbf.png"
         alt="Get it on Google Play"
-        className="h-14 w-auto object-contain"
+        className="h-full w-auto object-contain"
         style={{ minWidth: '140px', maxWidth: '160px' }}
       />
     </button>
