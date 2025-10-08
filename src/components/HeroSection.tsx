@@ -30,8 +30,13 @@ export const HeroSection = () => {
               <br />
               <span className="text-hero-text font-semibold">מעולם לא היה קל כל כך</span>
             </h1>
-            <p className="font-cairo text-xl md:text-2xl text-hero-text/70 font-medium mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed" dir="rtl">
+            <p className="font-cairo text-xl md:text-2xl text-hero-text/70 font-medium mb-4 max-w-2xl mx-auto lg:mx-0 leading-relaxed" dir="rtl">
               אפליקציית propix לניהול נדל״ן עצמאי חכם
+            </p>
+            
+            {/* Download CTA */}
+            <p className="font-cairo text-lg md:text-xl text-hero-text/90 font-semibold mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent" dir="rtl">
+              הורידו עכשיו והתחילו לנהל נכסים בקלות
             </p>
 
             {/* Stats */}
@@ -50,11 +55,8 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            {/* Download Section */}
+            {/* Download Buttons */}
             <div className="animate-fade-in">
-              <p className="text-lg font-semibold text-hero-text mb-4" dir="rtl">
-                הורידו עכשיו
-              </p>
               <div className="flex flex-row gap-4 justify-center lg:justify-start items-center">
                 <AppStoreButton className="flex-shrink-0" />
                 <GooglePlayButton className="flex-shrink-0" />

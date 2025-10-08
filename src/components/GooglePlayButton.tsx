@@ -11,7 +11,8 @@ export const GooglePlayButton = ({ className }: GooglePlayButtonProps) => {
       <img 
         src="/lovable-uploads/8d6182d4-2a97-4773-a459-8527ea69efbf.png"
         alt="Get it on Google Play"
-        className="h-14 w-auto"
+        className="h-14 w-auto object-contain"
+        style={{ minWidth: '140px', maxWidth: '160px' }}
       />
     </button>
   );
