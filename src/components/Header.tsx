@@ -45,12 +45,6 @@ export const Header = () => {
       onClick: () => scrollToSection("contact")
     },
     { 
-      name: "מחירון", 
-      url: "#screens",
-      icon: Eye,
-      onClick: () => scrollToSection("screens")
-    },
-    { 
       name: "פיצ׳רים", 
       url: "#features",
       icon: Settings,
