@@ -15,7 +15,7 @@ function CountAnimation({
   const rounded = useTransform(count, Math.round);
 
   useEffect(() => {
-    const animation = animate(count, number, { duration: 2 });
+    const animation = animate(count, number, { duration: 4 });
 
     return animation.stop;
   }, []);
