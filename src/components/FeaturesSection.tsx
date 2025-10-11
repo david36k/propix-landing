@@ -13,7 +13,7 @@ const features = [
   },
   {
     icon: Users,
-    title: "ניהול דיירים",
+    title: "ניהול שוכרים",
     description: "קשר עם דיירים ומעקב תשלומים",
     image: "/lovable-uploads/3159d973-1b2a-41a4-a7f9-b93a33207d10.png",
     overlayTitle: "דיירים פעילים",
@@ -23,7 +23,7 @@ const features = [
   },
   {
     icon: BarChart3,
-    title: "דוחות ואנליטיקה",
+    title: "מערכות עזר מתקדמות",
     description: "תובנות מתקדמות על ביצועים כספיים",
     image: "/lovable-uploads/8d6182d4-2a97-4773-a459-8527ea69efbf.png",
     overlayTitle: "דוח חודשי",
