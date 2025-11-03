@@ -6,15 +6,15 @@
 
 @layer base {
   :root {
-    /* Light Gradient System - Teal to Green to Purple */
-    --gradient-primary: linear-gradient(135deg, #CCFBF1 0%, #A7F3D0 35%, #DDD6FE 70%, #C4B5FD 100%);
-    --gradient-hero: linear-gradient(135deg, #CCFBF1 0%, #A7F3D0 35%, #DDD6FE 70%, #C4B5FD 100%);
-    --gradient-hero-end: #C4B5FD;
-    --gradient-subtle: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
-    --gradient-transition: linear-gradient(180deg, #C4B5FD 0%, rgba(196, 181, 253, 0.8) 20%, rgba(196, 181, 253, 0.5) 40%, rgba(196, 181, 253, 0.2) 60%, rgba(196, 181, 253, 0.1) 80%, #F8FAFC 100%);
+    /* Light Gradient System - Light Purple to White */
+    --gradient-primary: linear-gradient(135deg, #EDE9FE 0%, #F3F4F6 50%, #FFFFFF 100%);
+    --gradient-hero: linear-gradient(135deg, #EDE9FE 0%, #F3F4F6 50%, #FFFFFF 100%);
+    --gradient-hero-end: #FFFFFF;
+    --gradient-subtle: linear-gradient(180deg, #F5F3FF 0%, #FFFFFF 100%);
+    --gradient-transition: linear-gradient(180deg, #EDE9FE 0%, rgba(237, 233, 254, 0.8) 20%, rgba(237, 233, 254, 0.5) 40%, rgba(237, 233, 254, 0.2) 60%, rgba(237, 233, 254, 0.1) 80%, #FFFFFF 100%);
     
     /* Core Colors - HSL Format */
-    --background: 210 40% 98%;
+    --background: 270 60% 99%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
