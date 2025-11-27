@@ -87,7 +87,7 @@ export const ContactSection = () => {
             
             <Button 
               type="submit"
-              className="w-full bg-gradient-to-r from-teal-600 to-green-600 hover:from-teal-700 hover:to-green-700 text-white font-heebo text-lg py-6"
+              className="w-full bg-gradient-to-r from-purple-400 to-purple-500 hover:from-purple-500 hover:to-purple-600 text-white font-heebo text-lg py-6"
             >
               <Send className="w-5 h-5 ml-2" />
               שלח הודעה
@@ -107,9 +107,8 @@ export const ContactSection = () => {
                 support@propix.co.il
               </Button>
               <Button 
-                variant="outline" 
-                onClick={() => window.open("https://wa.me/972501234567")}
-                className="flex-1 sm:flex-none"
+                onClick={() => window.open("https://wa.me/972555081020")}
+                className="flex-1 sm:flex-none bg-[#25D366] hover:bg-[#128C7E] text-white border-none"
               >
                 וואטסאפ
               </Button>
