@@ -1,6 +1,7 @@
 import { AppStoreButton } from "@/components/AppStoreButton";
 import { GooglePlayButton } from "@/components/GooglePlayButton";
 import { CountAnimation } from "@/components/ui/count-animation";
+import heroPhoneMockup from "@/assets/hero-phone-mockup.png";
 
 export const HeroSection = () => {
   return (
@@ -17,7 +18,7 @@ export const HeroSection = () => {
           {/* Phone Mockup - Left Side */}
           <div className="flex justify-center lg:justify-end animate-fade-up">
             <img 
-              src="/lovable-uploads/c7b8a489-822c-4117-b36e-e4baa5917c88.png"
+              src={heroPhoneMockup}
               alt="propix app interface"
               className="w-96 h-auto max-h-[700px] object-contain"
             />
